@@ -1,0 +1,64 @@
+.navBar {
+    background-color: rgb(42, 41, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.logo {
+    width: 10em;
+}
+
+.navLink {
+    margin-right: 3em;
+    display: flex;
+    gap: 4em;
+    list-style: none;
+}
+
+.lien {
+    color: beige;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+:hover.lien{
+    color: rgb(123, 61, 123);
+    font-size: 2.2em;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 8em;
+    }
+    .navLink {
+        display: block;
+        line-height: 2em;
+    }
+    .lien {
+        font-size: 1.6em;
+    }
+
+    :hover.lien{
+    font-size: 1.8em;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 6em;
+    }
+    .navLink {
+        margin: 1em;
+        line-height: 2em;
+    }
+    .lien {
+        font-size: 1.3em;
+    }
+    :hover.lien{
+        font-size: 1.5em;
+    }
+}

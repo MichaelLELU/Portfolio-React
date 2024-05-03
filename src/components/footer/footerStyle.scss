@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgb(42, 41, 42);
+    border-radius:15px 15px 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logoFooter {
+    width: 5em;
+}
+:hover.logoFooter {
+    width: 5.5em;
+}
+
+.footerList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .logoFooter {
+        width: 3em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logoFooter {
+        width: 2em;
+    }
+}
