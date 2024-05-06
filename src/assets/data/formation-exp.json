@@ -1,0 +1,60 @@
+{
+    "formation": [
+    {
+      "index": "1",
+      "ecole": "WILD CODE SCHOOL",
+      "titre": "BootCamp: Développeur Web et Web Mobile (équivalent bac+2)",
+      "date": "02/2024 - 07/2024"
+    },
+    {
+      "index": "2",
+      "ecole": "Lycée Professionnel Jean Perrin",
+      "titre": "Bac Professionnel Optique Lunetterie (mention bien)",
+      "date": "09/2010 - 06/2012"
+    },
+    {
+      "index": "3",
+      "ecole": "Lycée Professionnel Jean Perrin",
+      "titre": "BEP Optique Lunetterie",
+      "date": "09/2008 - 06/2010"
+    }
+    ],
+    "experience": [
+      {
+        "index": "1",
+        "poste": "Monteur Vendeur/Adjoint",
+        "entreprise": "krys - Ablis",
+        "periode": "Décembre.2022 - juillet.2023",
+        "description": "Gestion administratives, Comptabilité , aide au développement du groupe, conseils et suivi clients, commandes, réparations et montages."
+      },
+      {
+        "index": "2",
+        "poste": "Monteur Vendeur Formateur",
+        "entreprise": "Optical Center - Versailles - Plaisir",
+        "periode": "Septembre.2020 - Décembre.2022",
+        "description": "Force de vente, conseils et suivi clients, commandes, mise en valeur du magasin, montages, gestion mutuelles et chiffres."
+      },
+      {
+        "index": "3",
+        "poste": "Commercial B2B",
+        "entreprise": "docexpert concessionnaire XEROX - Meudon",
+        "periode": "Janvier.2020 - Août.2020",
+        "description": "Prospection, Suivi client, Financement."
+      },
+      {
+        "index": "4",
+        "poste": "Monteur/Vendeur/Adjoint",
+        "entreprise": "Alain Afflelou – Plaisirs/Montigny le Bretonneux",
+        "periode": "Janvier.2020 - Août.2020",
+        "description": "Force de vente, conseils et suivi clients, commandes, gestion mutuelles et chiffres, mise en valeur du magasin, montages, tâches administratives et litiges clients."
+      },
+      {
+        "index": "5",
+        "poste": "Equipier polyvalent/Formateur",
+        "entreprise": "McDonald’s – Guyancourt",
+        "periode": "Avril.2014 - Mai.2016",
+        "description": ""
+      }
+    ]
+  }
+  

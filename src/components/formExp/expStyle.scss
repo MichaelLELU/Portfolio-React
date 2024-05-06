@@ -1,0 +1,22 @@
+.listExp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.expTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonMoreExp {
+    width: 2em;
+    background-color: rgb(42, 41, 42);
+    color: beige;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+:hover.buttonMoreExp {
+    background-color: rgb(123, 61, 123);
+    width: 2.2em;
+}

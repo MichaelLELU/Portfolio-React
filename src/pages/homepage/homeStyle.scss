@@ -26,7 +26,16 @@
     display: flex;
     justify-content: space-between;
     gap: 3em;
+    margin-bottom: 1em;
 }
+.experiencesTitle {
+    margin-bottom: 1em;
+}
+
+.listForm {
+    margin-bottom: 1em;
+}
+
 .buttonMore {
     width: 2.2em;
     background-color: rgb(42, 41, 42);
@@ -84,5 +93,6 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 @media screen and (max-width: 500px) {
     .presentationText {
         font-size: 1.2em;
+        margin: 2em;
     }
 }
