@@ -37,7 +37,8 @@
 }
 
 .buttonMore {
-    width: 2.2em;
+    width: 25px;
+    height: 25px;
     background-color: rgb(42, 41, 42);
     color: beige;
     border: 1px solid black;
@@ -45,8 +46,8 @@
 }
 :hover.buttonMore {
     background-color: rgb(123, 61, 123);
-    width: 2.5em;
-    height: 2.5em;
+    width: 30px;
+    height: 30px;
 }
 
 .buttonContact {
@@ -67,6 +68,8 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 :hover.buttonContact{
     background-color: rgb(123, 61, 123);
     text-decoration: underline;
+}
+:focus.buttonContact{
     box-shadow: none;
 }
 

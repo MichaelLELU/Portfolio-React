@@ -1,0 +1,15 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    text-align: center;
+    margin: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .top {
+        gap: 0.5em;
+        margin: 0.5em;
+    }
+}

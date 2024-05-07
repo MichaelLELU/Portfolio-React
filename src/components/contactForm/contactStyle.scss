@@ -1,0 +1,63 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLabel {
+    font-size: larger;
+    margin-bottom: 0.3em;
+}
+.smallInput {
+    width: 15em;
+    height: 1.5em;
+    margin-bottom:1.2em;
+    border: 2px solid  rgb(42, 41, 42);
+}
+.largeInput {
+    display: block;
+    width: 60%;
+    height: 10em;
+    margin-bottom: 2em;
+    border: 2px solid  rgb(42, 41, 42);
+}
+:focus.smallInput{
+    outline:3px solid rgb(123, 61, 123);
+}
+:focus.largeInput{
+    outline:3px solid rgb(123, 61, 123);
+}
+
+
+.buttonEnvoi {
+    font-weight: bold;
+    width: 20%;
+    height: 3em;
+    text-align: center;
+    margin-bottom: 4em;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(42, 41, 42);
+    color: beige;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
+}
+:hover.buttonEnvoi{
+    background-color: rgb(123, 61, 123);
+}
+:focus.buttonEnvoi{
+    box-shadow: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .largeInput{
+        width: 35em;
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    .largeInput{
+        width: 80%; 
+        height: 5em;
+    }
+}
