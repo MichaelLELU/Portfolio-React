@@ -10,7 +10,7 @@ export default function Expercience ({exp}) {
     return  (
     <li className="listExp">
         <span className='expTitle'><h3>{exp.poste}</h3>
-        <button onClick={handleToggleEx} className='buttonMoreExp'>+</button></span>
+        <button onClick={handleToggleEx} className='buttonMoreExp'> ⬇ </button></span>
         {showDetailEx && 
             <div>
                 <h4>{exp.entreprise}</h4>

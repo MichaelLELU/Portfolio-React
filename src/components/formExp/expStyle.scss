@@ -10,7 +10,8 @@
 }
 
 .buttonMoreExp {
-    width: 2em;
+    width: 25px;
+    height: 25px;
     background-color: rgb(42, 41, 42);
     color: beige;
     border: 1px solid black;
@@ -18,5 +19,6 @@
 }
 :hover.buttonMoreExp {
     background-color: rgb(123, 61, 123);
-    width: 2.2em;
+    width: 30px;
+    height: 30px;
 }
