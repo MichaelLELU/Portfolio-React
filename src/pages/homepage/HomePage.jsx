@@ -17,7 +17,7 @@ export default function HomePage () {
             <img src={photo} alt="michael LELU red background" className='photo' />
                 <div className='presentationText'>
                     <h1>Développeur Web </h1>
-                    <p>Michaël LELU: social, dynamique, curieux, 
+                    <p>Michaël LELU: sociable, dynamique, curieux, 
                     soif de connaissance et force de proposition.</p>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function HomePage () {
                     </ul>
                 </article>
                 <article className='experiences'>
-                       <h2 className='experiencesTitle'>Expriences:</h2>
+                       <h2 className='experiencesTitle'>Experiences:</h2>
                         <ul> {formExp.experience.map((e) => (
                         <Experience key={e.index} exp={e} handleToggleEx/>
                        ))}

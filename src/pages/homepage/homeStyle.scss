@@ -1,5 +1,5 @@
 .photo  {
-    margin: 3em;
+    margin: 2em;
     border: 2px solid black;
     border-radius: 50%;
     width: 16em;
@@ -12,6 +12,7 @@
 .presentationText {
     display: block;
     text-align: center;
+    margin-left: 2em;
     font-size: 2em;
 }
 .articles {
@@ -19,7 +20,19 @@
     flex-direction: column;
     max-width: 70%;
     margin-left: 15%;
-    gap: 3em;
+    gap: 1em;
+}
+.formations {
+    border: solid 1px rgb(42, 41, 42);
+    border-radius: 40px;
+    background-color: rgb(228, 228, 228);
+    padding: 1em;
+}
+.experiences {
+    border: solid 1px rgb(42, 41, 42);
+    border-radius: 40px;
+    background-color: rgb(228, 228, 228);
+    padding: 1em;
 }
 
 .formationTitle {
@@ -46,8 +59,8 @@
 }
 :hover.buttonMore {
     background-color: rgb(123, 61, 123);
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
 }
 
 .buttonContact {
@@ -75,8 +88,8 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 
 @media screen and (max-width: 768px) {
     .photo {
-        margin: 1.5em;
         width: 10em;
+        margin: 0.5em;
     }
     .presentation {
         display: flex;
@@ -96,6 +109,11 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 @media screen and (max-width: 500px) {
     .presentationText {
         font-size: 1.2em;
-        margin: 2em;
+        margin-bottom: 0.5em;
+    }
+    .articles {
+        gap: 0.5em;
+        max-width: 95%;
+        margin: 5%;
     }
 }
