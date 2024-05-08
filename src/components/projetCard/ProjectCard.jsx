@@ -10,9 +10,9 @@ export default function ProjectCard({projet}) {
         <div className='projetContainer'>
         <h2 className='titleCard'>{projet.nom}</h2>
         {projet.desc.split('//').map((ligne, i) => (<p key={i} className='descCard'>{ligne}<br/></p>))}
-        <img src={projet.logo} alt={projet.logoAlt} className='image' />
+        <Link to={projet.lienProd}><img src={projet.logo} alt={projet.logoAlt} className='image' /></Link>
         <a href={projet.lienProd} className='lienCard'>{projet.lienProd}</a>
-        <Link className='button'>+ INFO</Link>
+        <Link to={`/projects/${projet.id}`} className='button'>+ INFO</Link>
         </div>
     )
   }
