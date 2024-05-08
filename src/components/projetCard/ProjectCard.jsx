@@ -1,10 +1,27 @@
-export default function ProjectCard() {
+import { Link } from 'react-router-dom'
+import propTypes from 'prop-types'
+import './cardStyle.scss'
+
+
+
+export default function ProjectCard({projet}) {
     return (
-      <>
-          <h1>Projet(card):</h1>
-          <h2>1- Collecter des slipes</h2>
-          <h3>2- ...</h3>
-          <h2>3- Profits !!!</h2>
-      </>
+
+        <div className='projetContainer'>
+        <h2 className='titleCard'>{projet.nom}</h2>
+        <p className='descCard'>{projet.desc}</p>
+        <img src={projet.image} alt={projet.alt} className='image' />
+        <a href={projet.lienProd} className='lienCard'>{projet.lienProd}</a>
+        <Link className='button'>+ INFO</Link>
+        </div>
     )
   }
+
+ProjectCard.propTypes={
+  projet: propTypes.shape({
+    nom: propTypes.string.isRequired,
+    image: propTypes.string.isRequired,
+    alt: propTypes.string.isRequired,
+    lienProd: propTypes.string.isRequired,
+    desc: propTypes.string.isRequired,
+  }.isRequired)}

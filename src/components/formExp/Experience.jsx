@@ -4,14 +4,14 @@ import './expStyle.scss'
 
 export default function Expercience ({exp}) {
 //state + fonction pour cacher/afficher les information dans les Experciences avec le boutton 
-    const [showDetailEx, setShowDetailEx] = useState(false);
-    const handleToggleEx = () => setShowDetailEx(!showDetailEx);
+    const [showDetail, setShowDetail] = useState(false);
+    const handleToggle = () => setShowDetail(!showDetail);
 
     return  (
-    <li className="listExp">
-        <span className='expTitle'><h3>{exp.poste}</h3>
-        <button onClick={handleToggleEx} className='buttonMoreExp'> + </button></span>
-        {showDetailEx && 
+    <li className="list">
+        <span className='title'><h3>{exp.poste}</h3>
+        <button onClick={handleToggle} className='buttonMore'>{ showDetail? "-" : "+" } </button></span>
+        {showDetail && 
             <div>
                 <h4>{exp.entreprise}</h4>
                 <p>{exp.periode}</p>

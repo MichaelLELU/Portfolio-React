@@ -1,15 +1,13 @@
 import { Link } from 'react-router-dom';
-import {useState} from 'react';
 import photo from '../../assets/MichaelL.jpg'
-import formExp from '../../assets/data/formation-exp.json'
+import formExp from '../../../public/data/formation-exp.json'
 import './homeStyle.scss'
 import Experience from '../../components/formExp/Experience';
+import Formation from '../../components/formExp/Formation';
 
 
 export default function HomePage () {
-    //state + fonction pour cacher/afficher les information dans les Formation avec le boutton 
-    const [showDetailForm,setShowDetailForm] = useState(false);
-    const handleToggleForm = () => setShowDetailForm(!showDetailForm);
+
 
     return (
         <main>
@@ -23,23 +21,15 @@ export default function HomePage () {
             </div>
             <div className='articles'>
                 <article className='formations'>
-                    <span className='formationTitle'> <h2>Formations:</h2>
-                    <button onClick={handleToggleForm} className='buttonMore'>+</button></span>
+                    <h2 className='titleH'>Formations:</h2>
                     <ul>
                         {formExp.formation.map ((f)=> (
-                        <li className='listForm' key={f.index}>
-                            <h3>{f.ecole}</h3>
-                        {showDetailForm && 
-                            <div>
-                                <h4>{f.titre}</h4>
-                                <p>{f.date}</p>
-                            </div>}
-                        </li>
+                            <Formation key={f.index} form={f}/>
                         )) }
                     </ul>
                 </article>
                 <article className='experiences'>
-                       <h2 className='experiencesTitle'>Experiences:</h2>
+                       <h2 className='titleH'>Expériences:</h2>
                         <ul> {formExp.experience.map((e) => (
                         <Experience key={e.index} exp={e} handleToggleEx/>
                        ))}

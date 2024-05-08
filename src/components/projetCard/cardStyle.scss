@@ -1,0 +1,56 @@
+.projetContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    border-radius: 30px;
+    border: 2px solid black ;
+    background-color: rgb(228, 228, 228);
+}
+.titleCard {
+    margin-top: 1em;
+}
+.descCard {
+    font-style: italic;
+    margin: 1em;
+}
+.image {
+    width: 95%;
+}
+.lienCard {
+    margin: 1em;
+    text-decoration: none;
+}
+:hover.lienCard{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.button {
+    width:5em;
+    text-align: center;
+    margin: 1em;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(42, 41, 42);
+    color: beige;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
+}
+:hover.button {
+    background-color: rgb(123, 61, 123);
+}
+
+@media screen and (max-width: 768px) {
+    .projetContainer {
+        width: 85%;
+    }
+    .lienCard {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .projetContainer {
+        width: 95%;
+    }
+}
