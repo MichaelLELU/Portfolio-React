@@ -16,7 +16,10 @@ export default function HomePage () {
                 <div className='presentationText'>
                     <h1>Développeur Web </h1>
                     <p>Michaël LELU: sociable, dynamique, curieux, 
-                    soif de connaissance et force de proposition.</p>
+                    soif de connaissance et force de proposition. <br />
+                    Du monde de la vision à celui de la création digitale, 
+                    je mets à profit ma passion pour le détail et la précision pour 
+                    concevoir des expériences web innovantes et accessibles à tous.</p>
                 </div>
             </div>
             <div className='articles'>
