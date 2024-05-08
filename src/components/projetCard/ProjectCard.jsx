@@ -9,8 +9,8 @@ export default function ProjectCard({projet}) {
 
         <div className='projetContainer'>
         <h2 className='titleCard'>{projet.nom}</h2>
-        <p className='descCard'>{projet.desc}</p>
-        <img src={projet.image} alt={projet.alt} className='image' />
+        {projet.desc.split('//').map((ligne, i) => (<p key={i} className='descCard'>{ligne}<br/></p>))}
+        <Link to={projet.lienProd}><img src={projet.logo} alt={projet.logoAlt} className='image' /></Link>
         <a href={projet.lienProd} className='lienCard'>{projet.lienProd}</a>
         <Link className='button'>+ INFO</Link>
         </div>
@@ -20,7 +20,7 @@ export default function ProjectCard({projet}) {
 ProjectCard.propTypes={
   projet: propTypes.shape({
     nom: propTypes.string.isRequired,
-    image: propTypes.string.isRequired,
+    logo: propTypes.string.isRequired,
     alt: propTypes.string.isRequired,
     lienProd: propTypes.string.isRequired,
     desc: propTypes.string.isRequired,
