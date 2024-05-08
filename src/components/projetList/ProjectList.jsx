@@ -8,7 +8,7 @@ export default function ProjectList() {
       <>
           <h1 className="titleP">Projet Formation:</h1>
         <div className="projectList">
-                  { projects.formation.map((pe )=> (
+          { projects.formation.map((pe )=> (
         <ProjectCard key={pe.id} projet={pe}/>
           ))}
         </div>
