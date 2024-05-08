@@ -4,7 +4,6 @@ export default function ProjectsPages () {
     
     return (
         <main>
-            <h1>page Projets</h1>
             <ProjectList />
         </main>
     )

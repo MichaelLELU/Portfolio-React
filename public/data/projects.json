@@ -1,0 +1,54 @@
+{"formation":[ 
+    {
+        "id": "1",
+        "nom": "Wild Code Quizz",
+        "image": "/image/imgProjet1.png",
+        "alt": "the sit web in 3 formats",
+        "lienProd": "https://wild-code-quizz-p1.vercel.app/",
+        "lienCode": "https://github.com/MichaelLELU/WildCodeQuizz-P1",
+        "desc": "Quizz sur le monde du web !",
+        "description": "Mon tout premier projet web était de développer un quizz sur le monde du web en utilisant HTML5, CSS3 et JavaScript. Le défi, ou plutôt la contrainte, était de travailler à quatre personnes sur un seul fichier par langage de programmation. Nous avions seulement 15 jours pour mener à bien ce projet, dans le cadre de mes cinq mois de formation à la Wild Code School."
+    },
+    {
+        "id": "2",
+        "nom": "Space View",
+        "image": "/image/imgProjet2.png",
+        "alt": "the sit web in 3 formats",
+        "lienProd": "https://space-view-p2-michael-l.vercel.app/",
+        "lienCode": "https://github.com/MichaelLELU/Space-View-P2",
+        "desc": "galerie d'images de la NASA.",
+        "description": "Deuxième projet à la Wild Code School, nous avons créé une galerie d'images en utilisant l'API de la NASA. Cette galerie est accessible à tous grâce à ses catégories et à sa barre de recherche permettant d'explorer l'espace. Nous avons travaillé en équipe de quatre personnes en utilisant la méthode de travail Agile, et avons utilisé React.js pour développer le projet. Le tout a été réalisé en trois semaines."
+    },
+    {
+        "id": "3",
+        "nom": "Projet 3",
+        "image": "",
+        "alt": "",
+        "lienProd": "Travail en cours ..",
+        "lienCode": "",
+        "desc": "Manipulation/creation de base de donné dernier projet a presenter lors de mon titre",
+        "description": ""
+    }
+  ],
+"perso":[
+    {
+        "id": "3",
+        "nom": "Rick and Morty World",
+        "image": "",
+        "alt": "",
+        "lienProd": "Travail en cours ..",
+        "lienCode": "",
+        "desc": "Utiliser l'api Rick et Morty",
+        "description": ""
+    },
+    {
+        "id": "4",
+        "nom": "Tree Circles",
+        "image": "",
+        "alt": "",
+        "lienProd": "Travail en cours ..",
+        "lienCode": "",
+        "desc": "galerie d'art",
+        "description": ""
+    }
+]    }
