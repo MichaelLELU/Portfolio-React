@@ -7,11 +7,13 @@ function App() {
 
 
   return (
-   <>
+
+    <body className='body'>
    <NavBar/>
    <Outlet/>
    <Footer/>
-   </>
+    </body>
+
   )
 }
 

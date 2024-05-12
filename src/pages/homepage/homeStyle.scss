@@ -11,7 +11,7 @@
 }
 .presentationText {
     display: block;
-    text-align: center;
+    text-align: center; 
     margin-left: 2em;
     margin-right: 2em;
     font-size: 2em;
@@ -100,6 +100,7 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
         font-size: 1.5em;
         margin: 2em;
         margin-top: 0;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
     }
     .buttonContact {
         margin-bottom: 2em;

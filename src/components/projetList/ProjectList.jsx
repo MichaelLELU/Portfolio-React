@@ -6,7 +6,7 @@ export default function ProjectList() {
     
   return (
       <>
-          <h1 className="titleP">Projet Formation:</h1>
+          <h1 className="titlePa">Projet Formation:</h1>
         <div className="projectList">
           {projects && projects.formation.map((pe )=> (
         <ProjectCard key={pe.id} projet={pe}/>

@@ -14,7 +14,7 @@
     {
         "id": "2",
         "nom": "Space View",
-        "image": "/imgProjet2.png",
+        "image": "/image/imgProjet2.png",
         "alt": "the sit web in 3 formats",
         "logo": "/image/logoProjet2SV.png",
         "logoAlt": "An astronaut helmet reflecting the stars with the site name below.",
