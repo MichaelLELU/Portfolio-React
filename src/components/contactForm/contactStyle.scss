@@ -19,9 +19,12 @@
     width: 60%;
     height: 10em;
     margin-bottom: 2em;
+    background-color: rgba(255, 255, 253, 0.75);
+    backdrop-filter: blur(8px);
     border: 2px solid  rgb(42, 41, 42);
 }
 :focus.smallInput{
+
     outline:3px solid rgb(123, 61, 123);
 }
 :focus.largeInput{
@@ -49,9 +52,9 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .largeInput{
-        width: 35em;
+        width: 30em;
         
     }
 }
