@@ -10,38 +10,27 @@
     text-decoration: underline;
     justify-content: center;
     margin: 1.5em;
-}
-.titlePa {
-    text-decoration: underline;
-    justify-content: center;
-    margin: 1.5em;
-    color: beige;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 830px) {
 .projectList {
-    flex-direction: column;
-    align-items: center;
     gap: 2em;
 }
 .titleP {
-    margin: 1em;
-}
-.titlePa {
     margin: 1em;
 }
 }
 
 @media screen and (max-width: 500px) {
     .projectList {
+        flex-direction: column;
+        align-items: center;
         gap: 0.5em;
         margin-bottom: 1em;
     }
     .titleP {
         margin: 0.5em;
     }
-    .titlePa {
-        margin: 0.5em;
-    }
-
 }

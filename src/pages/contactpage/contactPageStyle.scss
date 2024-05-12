@@ -5,12 +5,20 @@
     gap: 1.5em;
     text-align: center;
     margin: 2em;
+    font-size: 2em;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
+}
+@media screen and (max-width: 830px) {
+.top {
+    font-size: 1.5em;
+    margin: 1em;
+}
 }
 
 @media screen and (max-width: 500px) {
     .top {
         gap: 0.5em;
         margin: 0.5em;
-        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
+
     }
 }

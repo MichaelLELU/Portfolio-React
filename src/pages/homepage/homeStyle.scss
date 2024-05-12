@@ -15,6 +15,7 @@
     margin-left: 2em;
     margin-right: 2em;
     font-size: 2em;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
 }
 .articles {
     display: flex;
@@ -26,13 +27,15 @@
 .formations {
     border: solid 1px rgb(42, 41, 42);
     border-radius: 40px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228,0.7);
+    backdrop-filter: blur(8px);
     padding: 1em;
 }
 .experiences {
     border: solid 1px rgb(42, 41, 42);
     border-radius: 40px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228,0.7);
+    backdrop-filter: blur(8px);
     padding: 1em;
 }
 
@@ -83,7 +86,7 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
     box-shadow: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
     .photo {
         width: 10em;
         margin: 0.5em;
@@ -100,7 +103,6 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
         font-size: 1.5em;
         margin: 2em;
         margin-top: 0;
-        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
     }
     .buttonContact {
         margin-bottom: 2em;
