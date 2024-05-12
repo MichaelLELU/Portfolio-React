@@ -11,6 +11,12 @@
     justify-content: center;
     margin: 1.5em;
 }
+.titlePa {
+    text-decoration: underline;
+    justify-content: center;
+    margin: 1.5em;
+    color: beige;
+}
 
 @media screen and (max-width: 768px) {
 .projectList {
@@ -18,14 +24,24 @@
     align-items: center;
     gap: 2em;
 }
+.titleP {
+    margin: 1em;
+}
+.titlePa {
+    margin: 1em;
+}
 }
 
 @media screen and (max-width: 500px) {
     .projectList {
-        gap: 1em;
+        gap: 0.5em;
         margin-bottom: 1em;
     }
-    .title {
+    .titleP {
         margin: 0.5em;
     }
+    .titlePa {
+        margin: 0.5em;
+    }
+
 }

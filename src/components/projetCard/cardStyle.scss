@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 25em;
+    gap: 1em;
     backdrop-filter: blur(16px) saturate(200%);
     -webkit-backdrop-filter: blur(16px) saturate(200%);
     background-color: rgba(17, 25, 40, 0.76);
@@ -18,8 +19,8 @@
     margin-top: 1em;
 }
 .descCard {
-    font-style: italic;
     margin: 1em;
+    font-style: italic; 
 }
 .image {
     width: 15em;
@@ -29,22 +30,27 @@
     border-radius: 30px;
 }
 .lienCard {
-    color: beige;
-    margin: 1em;
+    width:5em;
+    height: 1.5em;
+    text-align: center;
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(42, 41, 42);
+    color: beige;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 }
 :hover.lienCard{
-    font-weight: bolder;
-    color: rgb(123, 61, 123);
-    text-decoration: underline;
+    font-weight: bold;
+    background-color: rgb(123, 61, 123);
+    box-shadow: none;
 }
 
 .button {
     width:5em;
     height: 1.5em;
-    padding-top: 0.5em;
     text-align: center;
-    margin: 1em;
+    margin-bottom: 1em;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 15px;
@@ -58,6 +64,21 @@
     box-shadow: none;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.imageInfo {
+    width: 20em;
+}
+
+.texte{
+    margin: 1.5em;
+}
+
 @media screen and (max-width: 768px) {
     .projetContainer {
         width: 85%;
@@ -65,6 +86,7 @@
     .image {
         width: 15em;
     }
+
     .lienCard {
         margin-bottom: 0;
     }
@@ -75,5 +97,8 @@
     }
     .image {
         width: 10em;
+    }
+    .imageInfo {
+        width: 15em;
     }
 }
