@@ -51,6 +51,11 @@
     box-shadow: none;
 }
 
+.message {
+    margin-bottom: 2em;
+    font-size: larger;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
+}
 
 @media screen and (max-width: 800px) {
     .largeInput{
