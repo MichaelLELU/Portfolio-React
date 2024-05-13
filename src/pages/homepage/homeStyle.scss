@@ -110,13 +110,18 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 0;
     }
     .presentationText {
         display: block;
         text-align: center;
         font-size: 1.5em;
         margin: 2em;
+        margin-bottom: 1em;
         margin-top: 0;
+    }
+    .lienCV {
+        margin-bottom: 0;
     }
     .buttonContact {
         margin-bottom: 2em;
