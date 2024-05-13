@@ -13,6 +13,7 @@ export default function ProjectCard({projet}) {
       
 
         <div className='projetContainer'>
+{/*           <Link to={`/projects/${projet.id}`}>page</Link> */}
         <h2 className='titleCard'>{projet.nom}</h2>
         {projet.desc.split('//').map((ligne, i) => (<p key={i} className='descCard'>{ligne}<br/></p>))}
         {projet.lienProd !== "" && (
