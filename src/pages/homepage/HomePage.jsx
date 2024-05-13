@@ -9,7 +9,7 @@ import Formation from '../../components/formExp/Formation';
 export default function HomePage () {
 
     const handleDownloadClick = () => {
-        window.open("/public/data/CVMichaelLELU.pdf", "_blank");
+        window.open("/data/CVMichaelLELU.pdf", "_blank");
       };
 
     return (
