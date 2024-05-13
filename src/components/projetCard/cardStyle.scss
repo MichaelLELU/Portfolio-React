@@ -31,6 +31,7 @@
 }
 .lienCard {
     width:5em;
+    padding-top: 0.5em;
     height: 1.5em;
     text-align: center;
     text-decoration: none;
@@ -60,6 +61,7 @@
 }
 :hover.button {
     font-weight: bold;
+    height: 1.8em;
     background-color: rgb(123, 61, 123);
     box-shadow: none;
 }

@@ -11,8 +11,8 @@
 }
 
 .navLink {
-    margin-right: 3em;
     display: flex;
+    margin-right: 3em;
     gap: 4em;
     list-style: none;
 }
@@ -64,12 +64,11 @@ ul li {
     font-weight: bold;
 }
 
-@media screen and (max-width: 8300px) {
+@media screen and (max-width: 830px) {
     .logo {
         width: 8em;
     }
     .navLink {
-        display: block;
         line-height: 2em;
     }
     .lien {
@@ -87,6 +86,7 @@ ul li {
         width: 6em;
     }
     .navLink {
+        display: block;
         margin: 1em;
         line-height: 2em;
     }

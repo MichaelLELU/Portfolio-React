@@ -17,6 +17,20 @@
     font-size: 2em;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
 }
+.lienCV {
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(42, 41, 42);
+    padding: 1em;
+    color: beige;
+    margin: 1em;
+}
+:hover.lienCV {
+    background-color: rgb(123, 61, 123);
+    text-decoration: underline;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
+}
 .articles {
     display: flex;
     flex-direction: column;
