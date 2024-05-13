@@ -11,7 +11,6 @@ export default function HomePage () {
     const handleDownloadClick = () => {
         window.open("/public/data/CVMichaelLELU.pdf", "_blank");
       };
-      console.log(handleDownloadClick)
 
     return (
         <main>
@@ -24,7 +23,7 @@ export default function HomePage () {
                     Du monde de la vision à celui de la création digitale, 
                     je mets à profit ma passion pour le détail et la précision pour 
                     concevoir des expériences web innovantes et accessibles à tous.</p>
-                    <button className='lienCV'><a className='linkCV' href="/public/data/CVMichaelLELU.pdf" target='_blank'rel='noopener noreferrer'>Téléchargez mon CV</a></button>
+                    <button onClick={handleDownloadClick} className='lienCV'>Téléchargez mon CV</button>
                 </div>
             </div>
             <div className='articles'>
