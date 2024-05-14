@@ -2,29 +2,44 @@
     margin: 2em;
     border: 2px solid black;
     border-radius: 50%;
-    width: 16em;
+    width: 20em;
 }
 .presentation {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 5em;
 }
 .presentationText {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center; 
+    gap: 2em;
+    margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
     font-size: 2em;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,  0 0 15px #FFF;
 }
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
 .lienCV {
-    font-weight: bold;
+    width: 50%;
+    font-size: 1em;
+    text-shadow: none;
+    text-decoration: none;
     border: 1px solid black;
     border-radius: 15px;
     background-color: rgb(42, 41, 42);
-    padding: 1em;
+    padding: 0.5em;
     color: beige;
-    margin: 1em;
 }
 
 :hover.lienCV {
@@ -32,66 +47,19 @@
     text-decoration: underline;
     box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 }
-.articles {
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    margin-left: 15%;
-    gap: 1em;
-}
-.formations {
-    border: solid 1px rgb(42, 41, 42);
-    border-radius: 40px;
-    background-color: rgb(228, 228, 228,0.7);
-    backdrop-filter: blur(8px);
-    padding: 1em;
-}
-.experiences {
-    border: solid 1px rgb(42, 41, 42);
-    border-radius: 40px;
-    background-color: rgb(228, 228, 228,0.7);
-    backdrop-filter: blur(8px);
-    padding: 1em;
-}
-
-.titleH {
-    margin-bottom: 1em;
-    text-decoration: underline;
-}
-
-.listForm {
-    margin-bottom: 1em;
-
-}
-
-.buttonMore {
-    width: 25px;
-    height: 25px;
-    background-color: rgb(42, 41, 42);
-    color: beige;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-:hover.buttonMore {
-    background-color: rgb(123, 61, 123);
-    width: 26px;
-    height: 26px;
-}
 
 .buttonContact {
-width: 40%;
-height: 3em;
-padding-top: 2em;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 4em;
-text-decoration: none;
-border: 1px solid black;
-border-radius: 15px;
-background-color: rgb(42, 41, 42);
-color: beige;
-box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
+    font-size: 2em;
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 2em;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(42, 41, 42);
+    color: beige;
+    box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 }
 :hover.buttonContact{
     background-color: rgb(123, 61, 123);
@@ -103,23 +71,8 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
 
 @media screen and (max-width: 830px) {
     .photo {
-        width: 10em;
-        margin: 0.5em;
-    }
-    .presentation {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 0;
-    }
-    .presentationText {
-        display: block;
-        text-align: center;
-        font-size: 1.5em;
-        margin: 2em;
-        margin-bottom: 1em;
-        margin-top: 0;
+        width: 15em;
+        margin-top: 1em;
     }
     .lienCV {
         margin-bottom: 0;
@@ -127,21 +80,20 @@ box-shadow: 4px 4px 6px -1px rgba(0,0,0,0.9);
     .buttonContact {
         margin-bottom: 2em;
     }
+    .presentation {
+        margin-bottom: 1.5em;
+    }
+    .presentationText {
+        font-size: 1.5em;
+        margin-top: 1em;
+        gap:1.5em;
+    }
+    .buttonContact{
+        padding: 0.5em;
+        margin-bottom: 1em;
+    }
+    .buttons{
+        gap:1em;
+    }
 }
 
-@media screen and (max-width: 500px) {
-    .presentationText {
-        font-size: 1.2em;
-        margin-bottom: 0.5em;
-    }
-    .articles {
-        gap: 0.5em;
-        max-width: 95%;
-        margin: 5%;
-    }
-    .buttonContact {
-        padding-top: 1em;
-        height: 2em;
-        margin-bottom: 0.5em;
-    }
-}

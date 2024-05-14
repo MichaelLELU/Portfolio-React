@@ -33,7 +33,7 @@ const router = createBrowserRouter(
   },
   {
     path: "*",
-    element: (<div className="404">
+    element: (<div className="erreur">
       <h1>Page not Found</h1>
       <img src="./assets/404.jpg" alt="404 not found on a land " />
     <Link to='/'>RETOUR</Link>
