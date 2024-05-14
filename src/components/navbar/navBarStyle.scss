@@ -1,13 +1,17 @@
 .navBar {
-    background-color: black;
+    backdrop-filter: blur(16px) saturate(200%);
+    -webkit-backdrop-filter: blur(16px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.76);
+    border: 1px solid rgba(255, 255, 255, 0.125);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 0 0 15px 15px;
+
 }
 
 .logo {
-    width: 10em;
+    width: 6em;
+    margin-left: 1em;
 }
 
 .navLink {
@@ -69,6 +73,7 @@ ul li {
         width: 8em;
     }
     .navLink {
+        margin-bottom:0.2em ;
         line-height: 2em;
     }
     .lien {
@@ -88,7 +93,8 @@ ul li {
     .navLink {
         display: block;
         margin: 1em;
-        line-height: 2em;
+        margin-bottom: 0;
+        line-height: 1.5em;
     }
     .lien {
         font-size: 1.3em;
