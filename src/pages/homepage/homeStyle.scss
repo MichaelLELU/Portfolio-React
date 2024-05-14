@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center; 
-    gap: 2em;
+    gap: 1em;
     margin-top: 2em;
     margin-left: 2em;
     margin-right: 2em;
@@ -74,19 +74,23 @@
         width: 15em;
         margin-top: 1em;
     }
-    .lienCV {
-        margin-bottom: 0;
-    }
     .buttonContact {
         margin-bottom: 2em;
     }
     .presentation {
-        margin-bottom: 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
     }
     .presentationText {
+        display: flex;
+        text-align: center;
         font-size: 1.5em;
-        margin-top: 1em;
-        gap:1.5em;
+        margin: 2em;
+        margin-bottom: 0.5em;
+        margin-top: 0;
     }
     .buttonContact{
         padding: 0.5em;
