@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import photo from '../../assets/MichaelL.jpg'
+import photo from '../../assets/MichaelLsansF.png'
 import './homeStyle.scss'
 import ListForm from '../../components/listForm/ListForm';
 
@@ -11,7 +11,7 @@ export default function HomePage () {
     return (
         <main>
             <div className='presentation'>
-            <img src={photo} alt="michael LELU red background" className='photo' />
+            <img src={photo} alt="michael LELU" className='photo' />
                 <div className='presentationText'>
                     <h1>Développeur Web </h1>
                     <p>Michaël LELU: sociable, dynamique, curieux, 
