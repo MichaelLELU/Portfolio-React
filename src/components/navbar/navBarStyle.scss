@@ -64,6 +64,7 @@ ul li {
   }
 
 :hover.lien{
+    transition: 0.2s;
     color: rgb(123, 61, 123);
     font-weight: bold;
 }
