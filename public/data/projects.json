@@ -1,7 +1,8 @@
-{"formation":[ 
+[ 
     {
         "id": "1",
         "nom": "Wild Code Quizz",
+        "type":"formation",
         "image": "/image/imgProjet1.png",
         "alt": "the sit web in 3 formats",
         "logo": "/image/logoProjet1WCQ.png",
@@ -14,6 +15,7 @@
     {
         "id": "2",
         "nom": "Space View",
+        "type":"formation",
         "image": "/image/imgProjet2.png",
         "alt": "the sit web in 3 formats",
         "logo": "/image/logoProjet2SV.png",
@@ -25,22 +27,22 @@
     },
     {
         "id": "3",
-        "nom": "Projet 3",
-        "image": "",
-        "alt": "",
-        "logo": "",
-        "logoAlt": "",
-        "lienProd": "",
-        "lienCode": "",
-        "desc": "Manipulation/création de base de données dernier projet à presenter lors de mon titre. // Travail en cours ..",
-        "description": ""
-    }
-  ],
-"perso":[
+        "nom": "Botanic World",
+        "type":"ProtoJam",
+        "image": "/image/imgProtojam1BW.png",
+        "alt": "the sit web in 3 formats",
+        "logo": "/image/logoProtoJam1.png",
+        "logoAlt": "green background, a white flower and name",
+        "lienProd": "https://groupe-h-protojam.vercel.app/",
+        "lienCode": "https://github.com/MichaelLELU/Groupe-H-Protojam",
+        "desc": "Herbier numérique utilisant l'API Trefle, créé en 36 heures.",
+        "description": "Dans le cadre d'une ProtoJam organisée par la Wild Code School, nous avons eu 36 heures pour créer un site sur le thème de la nature, en équipe composée de membres rencontrés sur place. Nous avons décidé de créer un herbier numérique en utilisant l'API Trefle."
+    },
     {
         "id": "4",
         "nom": "Rick and Morty World",
-        "image": "",
+        "type":"perso",
+        "image": "/image/404.jpg",
         "alt": "",
         "logo": "",
         "logoAlt": "",
@@ -52,7 +54,8 @@
     {
         "id": "5",
         "nom": "Tree Circles ",
-        "image": "",
+        "type":"perso",
+        "image": "/image/404.jpg",
         "alt": "",
         "logo": "",
         "logoAlt": "",
@@ -61,4 +64,4 @@
         "desc": "Galerie d'art. // Travail en cours ..",
         "description": ""
     }
-]    }
+]       
