@@ -15,7 +15,7 @@ export default function PageProjet () {
     <button type="button" onClick={handleBack} className="buttonR">Retour</button>
     <div className="containerTop">
     <h1 id="titreP">{projet.nom} {projet.logo === "" ? null : <img src={projet.logo} alt={projet.logoAlt} id="logo" />}</h1>
-    <p>Context: {projet.type}</p>
+    <p>Contexte: {projet.type}</p>
 
     <img src={projet.image} alt={projet.alt} className="imageP" />
     </div>
