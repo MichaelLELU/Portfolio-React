@@ -24,7 +24,7 @@ export default function HomePage () {
                 <p className='presentationText'> Du monde de la vision à celui de la création digitale, 
                     je mets à profit ma passion pour le détail et la précision pour 
                     concevoir des expériences web innovantes et accessibles à tous.</p>
-                <Link to='/contact' className='buttonContact'>CONTACT</Link>
+                <Link to='/contact' className='buttonContact'>Contact</Link>
                 </div>
                 <ListForm/>
         </main>

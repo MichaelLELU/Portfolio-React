@@ -22,7 +22,7 @@ export default function ContactForm() {
         <input type="email" name="email" placeholder="votre@mail.com" className='smallInput' required/>
         <label htmlFor="message" className='formLabel'>Message : </label>
         <textarea type="text" name="message" placeholder="Écrivez votre message..." className='largeInput' />
-        <input type="submit" value="ENVOI" className='buttonEnvoi'/>
+        <input type="submit" value="Envoi" className='buttonEnvoi'/>
         {submittedMessage && <p className='message'>{submittedMessage}</p>}
       </form>
 
