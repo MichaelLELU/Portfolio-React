@@ -15,7 +15,7 @@ export default function Expercience ({exp}) {
             <div>
                 <h4>{exp.entreprise}</h4>
                 <p>{exp.periode}</p>
-                <p> {exp.description}</p>
+                <p className="descExp"> {exp.description}</p>
             </div>}
     </li>
     
