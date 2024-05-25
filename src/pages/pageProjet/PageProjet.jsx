@@ -21,11 +21,11 @@ export default function PageProjet () {
     </div>
     <div className="containerBottom">
 
-  {projet.technos === "" ? null : <p>Technos:{projet.technos}</p> }
-    <p>{projet.description === "" ? projet.desc : projet.description}</p>
+  {projet.technos === "" ? null : <p>Technos: {projet.technos}</p> }
+    <p className="descP">{projet.description === "" ? projet.desc : projet.description}</p>
     </div><div className="containLink">
-    <Link to={projet.lienProd} target="_blank" className="lienCard">Site</Link>
-    <Link to={projet.lienCode} target="_blank" className="lienCard">Github</Link>
+  {projet.lienProd === "" ? null : <Link to={projet.lienProd} target="_blank" className="lienCard">Site</Link>}
+    {projet.lienCode === "" ? null : <Link to={projet.lienCode} target="_blank" className="lienCard">Github</Link>}
     </div>
     </>)
 }
