@@ -12,7 +12,7 @@ export default function Expercience ({exp}) {
         <span className='title'><h3>{exp.poste}</h3>
         <button onClick={handleToggle} className='buttonMore'>{ showDetail? "-" : "+" } </button></span>
         {showDetail && 
-            <div>
+            <div className="containExp">
                 <h4>{exp.entreprise}</h4>
                 <p>{exp.periode}</p>
                 <p className="descExp"> {exp.description}</p>

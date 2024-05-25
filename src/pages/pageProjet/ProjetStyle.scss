@@ -52,6 +52,9 @@
     margin-inline: 2em;
     margin-bottom: 2em;
 }
+.descP {
+    font-style: italic;
+}
 
 .containLink {
     display: flex ;
@@ -91,7 +94,7 @@
     }
     
     .imageP {
-        width: 15em;
+        width: 18em;
     }
     
     .containerBottom {
@@ -99,7 +102,7 @@
         font-size: 1em;
         gap: 1em;
         margin-inline: 2em;
-        margin-bottom: 2em;
+        margin-bottom: 5em;
     }
     
     .containLink {

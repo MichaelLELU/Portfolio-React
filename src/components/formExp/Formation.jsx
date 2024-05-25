@@ -12,7 +12,7 @@ export default function Formation ({form}) {
         <span className='title'><h3>{form.ecole}</h3>
         <button onClick={handleToggle} className='buttonMore'>{ showDetail? "-" : "+" }</button></span>
         {showDetail && 
-        <div>
+        <div className="containExp">
             <h4>{form.titre}</h4>
             <p>{form.date}</p>
         </div>}
