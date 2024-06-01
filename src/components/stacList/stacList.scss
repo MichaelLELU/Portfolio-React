@@ -1,0 +1,42 @@
+#mySwiperStack {
+    width: 450px;
+    height: 600px;
+    margin-bottom: 2em;
+  }
+  .imgStack {
+    width: 450px;
+    height: 500px;
+  }
+  
+  #swiperStack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  #swiperStack{
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(17, 25, 40, 1);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 5px 5px 7px 2px rgba(0,0,0,0.8);
+  }
+
+  
+@media screen and (max-width: 830px) {
+    #mySwiperStack  {
+        width: 240px;
+        height: 320px;
+        margin-bottom: 2em;
+      }
+
+      .imgStack {
+        width: 200px;
+        height: 280px;
+      }
+}

@@ -40,8 +40,7 @@ export default function ProjectList() {
           }}
           navigation={true}
           modules={[Parallax, Pagination, Navigation]}
-          className="mySwiper" id="projectList"
-    >
+          className="mySwiperProject" id="projectList" >
               <div>          
           {projects && projects.map((pe )=> (
               <SwiperSlide key={pe.id}><ProjectCard projet={pe}/></SwiperSlide>
