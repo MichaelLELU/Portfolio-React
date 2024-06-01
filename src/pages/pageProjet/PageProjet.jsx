@@ -11,7 +11,8 @@ export default function PageProjet () {
         window.history.back();
       };
 
-    return (<>
+    return (
+    <>
     <button type="button" onClick={handleBack} className="buttonR">Retour</button>
     <div className="containerTop">
     <h1 id="titreP">{projet.nom} {projet.logo === "" ? null : <img src={projet.logo} alt={projet.logoAlt} id="logo" />}</h1>
@@ -27,5 +28,6 @@ export default function PageProjet () {
   {projet.lienProd === "" ? null : <Link to={projet.lienProd} target="_blank" className="lienCard">Site</Link>}
     {projet.lienCode === "" ? null : <Link to={projet.lienCode} target="_blank" className="lienCard">Github</Link>}
     </div>
-    </>)
+    </>
+    )
 }

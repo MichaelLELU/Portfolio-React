@@ -1,7 +1,9 @@
+
 import { Link } from 'react-router-dom';
 import photo from '../../assets/MichaelLsansF.png'
 import './homeStyle.scss'
 import ListForm from '../../components/listForm/ListForm';
+import StackList from '../../components/stacList/StackList';
 
 
 
@@ -26,6 +28,7 @@ export default function HomePage () {
                     concevoir des expériences web innovantes et accessibles à tous.</p>
                 <Link to='/contact' className='buttonContact'>Contact</Link>
                 </div>
+                <StackList/>  
                 <ListForm/>
         </main>
     )
