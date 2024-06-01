@@ -20,7 +20,6 @@ export default function HomePage () {
                     soif de connaissance et force de proposition.</p>
                     <Link to="/data/CVMichaelLELU.pdf" target='_blank' className='lienCV' download>Téléchargez mon CV</Link>
                 </div>
-
             </div>
                 <div className='buttons'>
                 <p className='presentationText'> Du monde de la vision à celui de la création digitale, 
