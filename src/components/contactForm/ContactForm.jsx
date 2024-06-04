@@ -15,7 +15,8 @@ export default function ContactForm() {
 
   return (
     <>
-      <form className="contactForm" onSubmit={handleSubmit}>
+      <form className="contactForm" onSubmit={handleSubmit} action="https://formspree.io/f/xvoejwad"
+  method="POST">
         <label htmlFor="name" className='formLabel'>Nom : </label>
         <input type="text" name="name" placeholder="Entrez votre nom" className='smallInput' required/>
         <label htmlFor="email" className='formLabel'>Email : </label>
