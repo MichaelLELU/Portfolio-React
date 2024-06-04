@@ -12,7 +12,7 @@ export default function ListForm () {
 
     return (
         <div className='articles'>
-            <h2 className="titleP">Mon parcours:</h2>
+            <h1 className="titleP">Mon parcours:</h1>
         <article className='boxFormExp'>
             <span className="more"><h2 className='titleH'>Formations:</h2>
             <button onClick={handleToggleForm} className='buttonMore'>{ showDetailForm? "-" : "+" } </button></span>
