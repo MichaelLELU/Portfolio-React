@@ -18,7 +18,7 @@ export default function HomePage () {
                     <h1>Développeur Web</h1>
                     <p>Michaël LELU: sociable, dynamique, curieux, 
                     soif de connaissance et force de proposition.</p>
-                    <Link to="/data/Michael-LELU-CV.pdf" target='_blank' className='lienCV' download>Téléchargez mon CV</Link>
+                    <Link to="/data/Michael-LELU-CV.pdf" target='_blank' className='lienCV' download aria-label='.pdf'>Téléchargez mon CV</Link>
                 </div>
             </div>
                 <div className='buttons'>

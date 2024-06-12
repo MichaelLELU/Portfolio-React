@@ -32,7 +32,7 @@ export default function StackList() {
         {stack.map ((s) => (
             <div key={s.id}>
         <SwiperSlide id='swiperStack'>
-            <img src={s.logo} alt={s.name} className='imgStack'/>
+            <img src={s.logo} alt={s.alt} className='imgStack'/>
             <h2>{s.name}</h2>
         </SwiperSlide>
         </div>))}

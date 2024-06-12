@@ -22,13 +22,13 @@ export default function ContactForm() {
     <>
       <form className="contactForm" onSubmit={handleSubmit} >
         <label htmlFor="name" className='formLabel'>Nom : </label>
-        <input type="text" name="name" placeholder="Entrez votre nom" className='smallInput' required/>
+        <input aria-label='name' type="text" name="name" placeholder="Entrez votre nom" className='smallInput' required/>
         <ValidationError prefix="Name" field="name" errors={state.errors}/>
         <label htmlFor="email" className='formLabel'>Email : </label>
-        <input type="email" name="email" placeholder="votre@mail.com" className='smallInput' required/>
+        <input aria-label='email' type="email" name="email" placeholder="votre@mail.com" className='smallInput' required/>
         <ValidationError prefix="Email" field="email" errors={state.errors}/>
         <label htmlFor="message" className='formLabel'>Message : </label>
-        <textarea type="text" name="message" placeholder="Écrivez votre message..." className='largeInput' />
+        <textarea type="text" aria-label='draw message' name="message" placeholder="Écrivez votre message..." className='largeInput' />
         <ValidationError prefix="Text" field="text" errors={state.errors}/>
         <input type="submit" value="Envoi" className='buttonEnvoi' disabled={state.submitting}/>
       </form>

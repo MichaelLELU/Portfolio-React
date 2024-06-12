@@ -2,41 +2,49 @@
     {
         "id":"1",
         "name":"HTML5",
-        "logo":"/image/logoHTML.png"
+        "logo":"/image/logoHTML.png",
+        "alt":"logo in color HTML5"
     },
     {
         "id":"2",
         "name":"CSS3",
-        "logo":"/image/logoCSS.png"
+        "logo":"/image/logoCSS.png",
+        "alt":"logo in color CSS3"
     },
     {
         "id":"3",
         "name":"JavaScript",
-        "logo":"/image/logoJS.png"
+        "logo":"/image/logoJS.png",
+        "alt":"logo in color JavaScript"
     },
     {
         "id":"4",
         "name":"NPM",
-        "logo":"/image/logoNPM.png"
+        "logo":"/image/logoNPM.png",
+        "alt":"logo in color NPM"
     },
     {
         "id":"5",
         "name":"React",
-        "logo":"/image/logoREACT.png"
+        "logo":"/image/logoREACT.png",
+        "alt":"logo in color React"
     },
     {
         "id":"6",
         "name":"MySQL",
-        "logo":"/image/logoMYSQL.png"
+        "logo":"/image/logoMYSQL.png",
+        "alt":"logo in color MySQL"
     },
     {
         "id":"7",
         "name":"NodeJS",
-        "logo":"/image/logoNODEjs.png"
+        "logo":"/image/logoNODEjs.png",
+        "alt":"logo in color NodeJS"
     },
     {
         "id":"8",
         "name":"VsCode",
-        "logo":"/image/logoVSC.png"
+        "logo":"/image/logoVSC.png",
+        "alt":"logo in color VsCode"
     }
 ]
