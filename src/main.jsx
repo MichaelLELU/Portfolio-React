@@ -28,7 +28,7 @@ const router = createBrowserRouter(
     element: <ContactPage/>,
   },
   {
-    path: "/projects/:id",
+    path: "/projects/:nom",
     element: <PageProjet/>,
   },
   {

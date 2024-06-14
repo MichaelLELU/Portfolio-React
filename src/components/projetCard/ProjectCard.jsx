@@ -12,7 +12,7 @@ export default function ProjectCard({projet}) {
         <h2 className='titleCard'>{projet.nom}</h2>
         {projet.desc.split('//').map((ligne, i) => (<p key={i} className='descCard'>{ligne}<br/></p>))}
         {projet.logo === "" ? null : <Link target="_blank" to={projet.lienProd}><img src={projet.logo} alt={projet.logoAlt} className='image' /></Link>}
-        <Link to={`/projects/${projet.id}`} className='button'>Info</Link>
+        <Link to={`/projects/${projet.nom.replaceAll(" ", "-")}`} className='button'>Info</Link>
         </div> 
     )
   }
