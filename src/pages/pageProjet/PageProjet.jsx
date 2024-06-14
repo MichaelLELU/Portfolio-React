@@ -4,8 +4,10 @@ import './ProjetStyle.scss'
 
 
 export default function PageProjet () {
-    const { id } = useParams();
-    const projet = projects[id -1]
+    const { nom } = useParams();
+ 
+    const projet = projects.find((p) => p.nom.toLowerCase().replaceAll(" ", "-") === nom.toLowerCase());
+    console.log(projet);
 
     const handleBack = () => {
         window.history.back();
