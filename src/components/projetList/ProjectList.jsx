@@ -30,8 +30,8 @@ export default function ProjectList() {
                        spaceBetween: 50,
                      },}}
           style={{
-            '--swiper-navigation-color': 'rgb(123, 61, 123)',
-            '--swiper-pagination-color': 'rgb(123, 61, 123)',
+            '--swiper-navigation-color': 'rgb(175, 103, 175)',
+            '--swiper-pagination-color': 'rgb(175, 103, 175)',
           }}
           speed={600}
           parallax={true}

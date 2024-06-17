@@ -15,8 +15,8 @@ export default function StackList() {
     <h1 className='titleP'>Ma Stack Technique:</h1>
       <Swiper
                 style={{
-                  '--swiper-navigation-color': 'rgb(123, 61, 123)',
-                  '--swiper-pagination-color': 'rgb(123, 61, 123)',
+                  '--swiper-navigation-color': 'rgb(175, 103, 175)',
+                  '--swiper-pagination-color': 'rgb(175, 103, 175)',
                 }}
                 speed={600}
                 parallax={true}
