@@ -26,11 +26,13 @@ export default function ContactForm() {
         <ValidationError prefix="Name" field="name" errors={state.errors}/>
         <label htmlFor="email" className='formLabel'>Email : </label>
         <input aria-label='email' type="email" name="email" placeholder="votre@mail.com" className='smallInput' required/>
+        <input type="hidden" id="custId" name="custId" value="3615"/>
         <ValidationError prefix="Email" field="email" errors={state.errors}/>
         <label htmlFor="message" className='formLabel'>Message : </label>
         <textarea type="text" aria-label='draw message' name="message" placeholder="Écrivez votre message..." className='largeInput' />
         <ValidationError prefix="Text" field="text" errors={state.errors}/>
         <input type="submit" value="Envoi" className='buttonEnvoi' disabled={state.submitting}/>
+        
       </form>
 
     </>
