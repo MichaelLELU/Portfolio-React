@@ -56,7 +56,7 @@ export default function Particules () {
           value: "rgb(175, 103, 175)",
         },
         links: {
-          color: "rgb(175, 103, 175)",
+          color: "#f5f5dc",
           distance: 150,
           enable: true,
           opacity: 0.8,
