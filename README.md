@@ -5,5 +5,5 @@ https://swiperjs.com/
 
 
 #
-### link to: https://portfolio-react-michael-lelu-v1.vercel.app/z
+### link to: https://portfolio-react-michael-lelu-v1.vercel.app
 #
