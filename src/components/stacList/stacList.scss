@@ -1,44 +1,43 @@
 #mySwiperStack {
-    width: 400px;
-    height: 450px;
-    margin-bottom: 2em;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-  .imgStack {
-    width: 400px;
-    height: 400px;
-  }
-  
-  #swiperStack {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  #swiperStack{
-    object-fit: contain;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(17, 25, 40, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    box-shadow: 5px 5px 7px 2px rgba(0,0,0,0.8);
-  }
+  width: 400px;
+  height: 450px;
+  margin-bottom: 2em;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.imgStack {
+  width: 400px;
+  height: 400px;
+}
 
-  
+#swiperStack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#swiperStack {
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(17, 25, 40, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.8);
+}
+
 @media screen and (max-width: 830px) {
-    #mySwiperStack  {
-        width: 200px;
-        height: 250px;
-        margin-bottom: 2em;
-      }
+  #mySwiperStack {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 2em;
+  }
 
-      .imgStack {
-        width: 200px;
-        height: 280px;
-      }
+  .imgStack {
+    width: 200px;
+    height: 280px;
+  }
 }

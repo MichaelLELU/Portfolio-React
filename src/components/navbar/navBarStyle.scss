@@ -1,106 +1,104 @@
 .navBar {
-    backdrop-filter: blur(16px) saturate(200%);
-    -webkit-backdrop-filter: blur(16px) saturate(200%);
-    background-color: rgba(17, 25, 40, 0.76);
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  backdrop-filter: blur(16px) saturate(200%);
+  -webkit-backdrop-filter: blur(16px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width: 6em;
-    margin-left: 1em;
+  width: 6em;
+  margin-left: 1em;
 }
 
 .navLink {
-    display: flex;
-    margin-right: 3em;
-    gap: 4em;
-    list-style: none;
+  display: flex;
+  margin-right: 3em;
+  gap: 4em;
+  list-style: none;
 }
 
 .lien {
-    color: beige;
-    text-decoration: none;
-    font-size: 2em;
+  color: beige;
+  text-decoration: none;
+  font-size: 2em;
 }
 ul li {
-    padding: 0 0.5em 0.25em;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s;
-  }
-  ul li:before {
-    content: "";
-    position: absolute;
-    inset: calc(100% - 1px) 0 0 0;
-    background: rgb(175, 103, 175);
-    scale: 0 1;
-    transition:
-      0.3s,
-      translate 0s 0.3s;
-  }
-  ul:hover li:before {
-    scale: 1;
-  }
-  ul li:hover:before {
-    translate: 0;
-    transition: 0.3s;
-  }
-  ul:hover li:has(~ li:hover):before {
-    translate: 100% 0;
-    transition:
-      0.2s 0.2s,
-      scale 0s 0.4s;
-  }
-  ul:hover li:hover ~ li:before {
-    translate: -100% 0;
-    transition:
-      0.2s 0.2s,
-      scale 0s 0.4s;
-  }
+  padding: 0 0.5em 0.25em;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+ul li:before {
+  content: "";
+  position: absolute;
+  inset: calc(100% - 1px) 0 0 0;
+  background: rgb(175, 103, 175);
+  scale: 0 1;
+  transition:
+    0.3s,
+    translate 0s 0.3s;
+}
+ul:hover li:before {
+  scale: 1;
+}
+ul li:hover:before {
+  translate: 0;
+  transition: 0.3s;
+}
+ul:hover li:has(~ li:hover):before {
+  translate: 100% 0;
+  transition:
+    0.2s 0.2s,
+    scale 0s 0.4s;
+}
+ul:hover li:hover ~ li:before {
+  translate: -100% 0;
+  transition:
+    0.2s 0.2s,
+    scale 0s 0.4s;
+}
 
-:hover.lien{
-    transition: 0.2s;
-    color: rgb(175, 103, 175);
-    font-weight: bold;
+:hover.lien {
+  transition: 0.2s;
+  color: rgb(175, 103, 175);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 830px) {
-    .logo {
-        width: 8em;
-    }
-    .navLink {
-        margin-bottom:0.2em ;
-        line-height: 2em;
-    }
-    .lien {
-        font-size: 1.6em;
-    }
+  .logo {
+    width: 8em;
+  }
+  .navLink {
+    margin-bottom: 0.2em;
+    line-height: 2em;
+  }
+  .lien {
+    font-size: 1.6em;
+  }
 
-    :hover.lien{
+  :hover.lien {
     font-size: 1.8em;
-    }
-    
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .logo {
-        width: 6em;
-    }
-    .navLink {
-        display: block;
-        margin: 1em;
-        margin-bottom: 0;
-        line-height: 1.5em;
-    }
-    .lien {
-        font-size: 1.3em;
-    }
-    :hover.lien{
-        font-size: 1.5em;
-    }
+  .logo {
+    width: 6em;
+  }
+  .navLink {
+    display: block;
+    margin: 1em;
+    margin-bottom: 0;
+    line-height: 1.5em;
+  }
+  .lien {
+    font-size: 1.3em;
+  }
+  :hover.lien {
+    font-size: 1.5em;
+  }
 }

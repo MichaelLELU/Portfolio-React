@@ -1,37 +1,36 @@
 .list {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
 }
 
 .title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .buttonMore {
-    min-width: 25px;
-    min-height: 25px;
-    font-size: 1.2em;
-    font-weight: bold;
-    background-color: rgb(42, 41, 42);
-    color: beige;
-    border: 1px solid black;
-    border-radius: 50%;
+  min-width: 25px;
+  min-height: 25px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgb(42, 41, 42);
+  color: beige;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 :hover.buttonMore {
-    background-color: rgb(123, 61, 123);
-    width: 27px;
-    height: 27px;
+  background-color: rgb(123, 61, 123);
+  width: 27px;
+  height: 27px;
 }
 
 .containExp {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
 
 .descExp {
-    font-style: italic;
+  font-style: italic;
 }
-

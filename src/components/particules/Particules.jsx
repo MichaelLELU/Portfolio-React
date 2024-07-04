@@ -2,15 +2,12 @@ import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
-
-export default function Particules () {
+export default function Particules() {
   const [init, setInit] = useState(false);
-
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-
     }).then(() => {
       setInit(true);
     });
@@ -21,9 +18,9 @@ export default function Particules () {
   };
 
   const options = useMemo(
-    () => ({	
-//le context va jouer avec ça !
-/*       autoPlay: true, */
+    () => ({
+      //le context va jouer avec ça !
+      /*       autoPlay: true, */
       background: {
         color: {
           value: "rgb(42,41,42)",
@@ -43,7 +40,7 @@ export default function Particules () {
         },
         modes: {
           push: {
-            quantity: 20,
+            quantity: 10,
           },
           repulse: {
             distance: 150,
@@ -85,31 +82,31 @@ export default function Particules () {
           type: "circle",
         },
         size: {
-          value: { min: 3 , max: 5 },
+          value: { min: 3, max: 5 },
         },
-      attract:{
-        distance:300,
-        duration:0.4,
-        easing:"ease-out-quad",
-        factor:1,
-        maxSpeed:50,
-        speed:2,
-        }
+        attract: {
+          distance: 300,
+          duration: 0.4,
+          easing: "ease-out-quad",
+          factor: 1,
+          maxSpeed: 50,
+          speed: 2,
+        },
       },
       detectRetina: true,
     }),
-    [],
+    []
   );
 
   if (init) {
     return (
-        <div style={{ position: "fixed", top: 0, left: 0, zIndex: -1 }}>
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
-        </div>
+      <div style={{ position: "fixed", top: 0, left: 0, zIndex: -1 }}>
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+      </div>
     );
   }
 

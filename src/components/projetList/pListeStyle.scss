@@ -1,37 +1,36 @@
-#projectList  {
-   margin-bottom: 4em;
-   padding-left: 5%;
-   padding-bottom: 2em;
+#projectList {
+  margin-bottom: 4em;
+  padding-left: 5%;
+  padding-bottom: 2em;
 }
 
 .titleP {
-    text-align: center;
-    margin: 1.5em;
-    color: beige;
+  text-align: center;
+  margin: 1.5em;
+  color: beige;
 }
-
 
 @media screen and (max-width: 840px) {
-#projectList {
+  #projectList {
     margin-bottom: 1em;
     padding-left: 5%;
-}
-.titleP {
+  }
+  .titleP {
     margin: 1em;
-}
+  }
 }
 
 @media screen and (max-width: 650px) {
-    #projectList {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5em;
-        margin-bottom: 1em;
-        margin-bottom: 8em;
-        padding-left: 1em;
-    }
-    .titleP {
-        margin: 0.5em;
-        margin-bottom: 2em;
-    }
+  #projectList {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+    margin-bottom: 8em;
+    padding-left: 1em;
+  }
+  .titleP {
+    margin: 0.5em;
+    margin-bottom: 2em;
+  }
 }
