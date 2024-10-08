@@ -1,17 +1,17 @@
 [
   {
     "id": "1",
-    "nom": "Wild Code Quizz",
-    "type": "formation",
-    "image": "/image/imgProjet1.png",
-    "alt": "the sit web in 3 formats",
-    "logo": "/image/logoProjet1WCQ.png",
-    "logoAlt": "W turquoise, C magenta, and the Q bar yellow in a circle",
-    "lienProd": "https://wild-code-quizz-p1.vercel.app/",
-    "lienCode": "https://github.com/MichaelLELU/WildCodeQuizz-P1",
-    "desc": "Quizz sur le monde du web !",
-    "description": "Mon tout premier projet web était de développer un quizz sur le monde du web. Le défi, ou plutôt la contrainte, était de travailler à quatre sur un seul fichier par langage de programmation grace à la plateforme GitHub. Nous avions seulement 15 jours pour mener à bien ce projet, dans le cadre de mes cinq mois de formation à la Wild Code School.",
-    "technos": "HTML5, CSS3, JavaScript "
+    "nom": "PokeDex Ts",
+    "type": "perso",
+    "image": "/image/imgProjetP.png",
+    "alt": "pockedex website in 3 formats",
+    "logo": "/image/pokeball.svg",
+    "logoAlt": "pokeball",
+    "lienProd": "https://pokedex-ts-try.vercel.app/",
+    "lienCode": "https://github.com/MichaelLELU/Pokedex-TS",
+    "desc": "Utiliser une api afin de m'entrainer à TypeScript.",
+    "description": "Lors de mon parcours de formation CDA. J'ai decider de m'entrainer à TypeScript (et au Typage). J'ai donc créer un pokedex grace à l'api pokebuildapi et en utilisant React et Vite TS. mon colegue Aurelien Lavanchy ( https://github.com/aurelienLavanchy ) m'a donné un coup de main pour le design.",
+    "technos": "React/Vite TS, CSS"
   },
   {
     "id": "2",
@@ -43,6 +43,20 @@
   },
   {
     "id": "4",
+    "nom": "Wild Code Quizz",
+    "type": "formation",
+    "image": "/image/imgProjet1.png",
+    "alt": "the sit web in 3 formats",
+    "logo": "/image/logoProjet1WCQ.png",
+    "logoAlt": "W turquoise, C magenta, and the Q bar yellow in a circle",
+    "lienProd": "https://wild-code-quizz-p1.vercel.app/",
+    "lienCode": "https://github.com/MichaelLELU/WildCodeQuizz-P1",
+    "desc": "Quizz sur le monde du web !",
+    "description": "Mon tout premier projet web était de développer un quizz sur le monde du web. Le défi, ou plutôt la contrainte, était de travailler à quatre sur un seul fichier par langage de programmation grace à la plateforme GitHub. Nous avions seulement 15 jours pour mener à bien ce projet, dans le cadre de mes cinq mois de formation à la Wild Code School.",
+    "technos": "HTML5, CSS3, JavaScript "
+  },
+  {
+    "id": "5",
     "nom": "Rick and Morty World",
     "type": "perso",
     "image": "/image/404.jpg",
@@ -56,7 +70,7 @@
     "technos": "React/Vite JS, Tailwind"
   },
   {
-    "id": "5",
+    "id": "6",
     "nom": "Tree Circles ",
     "type": "perso",
     "image": "/image/404.jpg",
