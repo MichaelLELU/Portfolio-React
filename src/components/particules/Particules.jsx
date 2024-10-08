@@ -35,15 +35,15 @@ export default function Particules() {
           },
           onHover: {
             enable: true,
-            mode: "repulse",
+            mode: "grab",
           },
         },
         modes: {
           push: {
-            quantity: 10,
+            quantity: 6,
           },
-          repulse: {
-            distance: 150,
+          grab: {
+            distance: 200,
             duration: 0.8,
           },
         },
@@ -54,7 +54,7 @@ export default function Particules() {
         },
         links: {
           color: "#f5f5dc",
-          distance: 150,
+          distance: 200,
           enable: true,
           opacity: 0.8,
           width: 1.5,
@@ -70,10 +70,11 @@ export default function Particules() {
           straight: false,
         },
         number: {
+          value: 0,
           density: {
             enable: true,
+            value_area: 10000,
           },
-          value: 0,
         },
         opacity: {
           value: 0.5,
